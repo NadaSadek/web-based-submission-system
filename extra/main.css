@@ -1,0 +1,199 @@
+@font-face {
+    font-family: myFont;
+	src: url('Blenda.otf');
+    font-weight:400;
+}
+body{
+	background:FFFFCC;
+	color: #003366;
+}
+.red{
+color:red;
+}
+
+#views1{
+position:absolute;
+top:200px;
+}
+#views2{
+position:absolute;
+top:200px;
+}
+#views3{
+position:absolute;
+top:300px;
+}
+#views4{
+position:absolute;
+top:400px;
+}
+#center1{
+position:relative;
+left:-50px;
+}
+#login{
+background-color:transparent;
+border:1px solid #5E386A;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:220px;
+height:240px;
+padding:18px 26px;
+cursor:pointer;
+margin-left:200px;
+}
+
+#username{
+padding:25px 30px 15px;
+font:bold 20px Georgia, serif;
+}
+.button{
+font:bold 15px Georgia, serif;
+font-style:normal;
+color:#FFCC66;
+background:#003366;
+border:0px solid #FFCC66;
+text-shadow:1px -2px 11px #5E386A;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:113px;
+padding:18px 26px;
+cursor:pointer;
+margin-left:100px;
+}
+.button:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: FFFFCC;
+}
+
+#header
+{
+    font-family:myFont;
+    font-size:300%;	
+    background-image: url(confedit.png);
+    background-size : cover;
+    background-repeat: no-repeat;
+	color:white;
+	padding: 200px;
+}
+.mainfont{
+position:relative;
+right:-20px;
+}
+.nav{
+position:relative;
+font-size:35%;
+top:170px;
+right:-250px;
+}
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	family-font:myFont;
+	border-right: 2px solid #fff;
+}
+
+#navigation li a:hover { background: #FFCC66; }
+
+
+
+#sideleft
+{
+	float: left;
+	width: 16%;
+	padding: 20px 0;
+	margin: 0 2%;
+	display: inline;
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+#content
+{
+	float: left;
+	width: 56%;
+	padding: 20px 0;
+	margin: 0 0 0 2%;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 16%;
+	padding: 20px 0;
+	margin: 0 2% 0 0;
+	display: inline;
+}
+
+#aside h3 { margin: 0; }
+
+#result{
+background-color:transparent;
+border:1px solid #5E386A;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:220px;
+height:240px;
+padding:18px 26px;
+cursor:pointer;
+margin-left:200px;
+
+}

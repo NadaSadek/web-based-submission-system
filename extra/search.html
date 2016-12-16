@@ -1,0 +1,28 @@
+<?php
+mysql_connect('localhost', 'root', '') or die("I couldn't connect to your database, please make sure your info is correct!");
+mysql_select_db('sys') or die("I couldn't find the database table make sure it's spelt right!");
+	$sql=mysql_query("SELECT * FROM conf_table");
+	?>
+<html>
+<link rel="stylesheet" href="main.css">
+<div id="container">
+	<div id="header">
+		<h1>
+			Submission System
+		</h1>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="main.html">Home</a></li>
+			<li><a href="search.html">Search</a></li>
+			<li><a href="Contactus.php">Contact us</a></li>
+		</ul>
+	</div>
+	</div></html>
+      Conference Name:  
+		 <select>
+<?php while($row = mysql_fetch_array($sql)){
+$confname=$row['name']; ?>
+ <option value="'.$confname.'"> <?php echo $confname ?> </option>
+ <?php} ?>
+</select>
